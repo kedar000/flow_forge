@@ -1,13 +1,13 @@
-package org.flow_froge;
+package org.flowforge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FlowFrogeApplication {
+public class FlowForgeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FlowFrogeApplication.class, args);
+        SpringApplication.run(FlowForgeApplication.class, args);
     }
 
 }

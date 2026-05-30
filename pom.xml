@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org</groupId>
-    <artifactId>flow_froge</artifactId>
+    <artifactId>flowforge</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>flow_froge</name>
     <description>flow_froge</description>
