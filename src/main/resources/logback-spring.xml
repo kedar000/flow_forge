@@ -1,8 +1,11 @@
 <configuration>
 
+    <property name="LOG_PATH" value="logs"/>
+
     <property name="CONSOLE_LOG_PATTERN"
               value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level traceId=%X{traceId} %logger{36} - %msg%n"/>
 
+    <!-- Console Appender -->
     <appender name="STDOUT"
               class="ch.qos.logback.core.ConsoleAppender">
 
@@ -12,8 +15,37 @@
 
     </appender>
 
+    <!-- File Appender -->
+    <appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <!-- Current log file -->
+        <file>${LOG_PATH}/application.log</file>
+
+        <!-- Rolling policy -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <!-- Daily log files -->
+            <fileNamePattern>
+                ${LOG_PATH}/application-%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+
+            <!-- Keep logs for 30 days -->
+            <maxHistory>30</maxHistory>
+
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+
+    </appender>
+
     <root level="INFO">
+
         <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+
     </root>
 
 </configuration>
