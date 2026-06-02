@@ -12,6 +12,9 @@ import org.flowforge.workflow.entity.WorkflowNode;
 
 import org.flowforge.workflow.service.WorkflowService;
 
+import org.flowforge.workflow.service.WorkflowValidationService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -21,7 +24,9 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class WorkflowController {
 
+    private static final Logger logger = LoggerFactory.getLogger(WorkflowController.class);
     private final WorkflowService workflowService;
+    public final WorkflowValidationService workflowValidationService;
 
     @PostMapping
     public Workflow createWorkflow(
@@ -40,8 +45,13 @@ public class WorkflowController {
 
     @PostMapping("/{workflowId}/edges")
     public WorkflowEdge addEdge(
+            @PathVariable UUID workflowId,
             @RequestBody CreateEdgeRequest request
     ) {
-        return workflowService.addEdge(request);
+
+        return workflowService.addEdge(
+                workflowId,
+                request
+        );
     }
 }

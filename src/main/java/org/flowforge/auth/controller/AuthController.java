@@ -3,6 +3,7 @@ package org.flowforge.auth.controller;
 import lombok.RequiredArgsConstructor;
 
 import org.flowforge.auth.dto.LoginRequest;
+import org.flowforge.auth.dto.LoginResponse;
 import org.flowforge.auth.dto.RegisterRequest;
 
 import org.flowforge.auth.entity.User;
@@ -26,7 +27,7 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    public String login(
+    public LoginResponse login(
             @RequestBody LoginRequest request
     ) {
         return authService.login(request);

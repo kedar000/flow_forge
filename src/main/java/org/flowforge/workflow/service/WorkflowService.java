@@ -1,7 +1,10 @@
 package org.flowforge.workflow.service;
 
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
+import org.flowforge.auth.entity.User;
+import org.flowforge.auth.repository.UserRepository;
 import org.flowforge.workflow.dto.CreateEdgeRequest;
 import org.flowforge.workflow.dto.CreateNodeRequest;
 import org.flowforge.workflow.dto.CreateWorkflowRequest;
@@ -16,6 +19,9 @@ import org.flowforge.workflow.repository.WorkflowRepository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -28,8 +34,17 @@ public class WorkflowService {
     private final WorkflowRepository workflowRepository;
     private final WorkflowNodeRepository workflowNodeRepository;
     private final WorkflowEdgeRepository workflowEdgeRepository;
+    public final UserRepository userRepository;
+    public  final WorkflowValidationService workflowValidationService;
+    //dont place this here cause this authenctation apply for the class and at the start of application during bean creation there is no authentication so this always return null
+//    Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
     public Workflow createWorkflow(CreateWorkflowRequest request) {
+
+        Authentication authentication =
+                SecurityContextHolder
+                        .getContext()
+                        .getAuthentication();
 
         try{
             logger.info("Creating workflow");
@@ -38,6 +53,13 @@ public class WorkflowService {
             workflow.setName(request.getName());
             workflow.setDescription(request.getDescription());
 
+            logger.info("Extracting email from security context holder : " + authentication);
+            String email = authentication.getName();
+            User user = (User) userRepository.findByEmail(email)
+                            .orElseThrow(()-> new UsernameNotFoundException("User not found"));
+
+
+            workflow.setCreatedBy(user);
             logger.info("Workflow created");
 
             return workflowRepository.save(workflow);
@@ -82,31 +104,35 @@ public class WorkflowService {
 
     }
 
-    public WorkflowEdge addEdge(CreateEdgeRequest request) {
+    @Transactional
+    public WorkflowEdge addEdge(
+            UUID workflowId,
+            CreateEdgeRequest request
+    ) {
 
-        try{
-            logger.info("Creating a edge");
-            WorkflowNode sourceNode =
-                    workflowNodeRepository.findById(request.getSourceNodeId())
-                            .orElseThrow(() -> new RuntimeException("Source node not found"));
+        WorkflowNode sourceNode =
+                workflowNodeRepository.findById(
+                        request.getSourceNodeId()
+                ).orElseThrow(() ->
+                        new RuntimeException("Source node not found"));
 
-            WorkflowNode targetNode =
-                    workflowNodeRepository.findById(request.getTargetNodeId())
-                            .orElseThrow(() -> new RuntimeException("Target node not found"));
+        WorkflowNode targetNode =
+                workflowNodeRepository.findById(
+                        request.getTargetNodeId()
+                ).orElseThrow(() ->
+                        new RuntimeException("Target node not found"));
 
-            WorkflowEdge edge = new WorkflowEdge();
+        WorkflowEdge edge = new WorkflowEdge();
 
-            edge.setSourceNode(sourceNode);
+        edge.setSourceNode(sourceNode);
 
-            edge.setTargetNode(targetNode);
+        edge.setTargetNode(targetNode);
 
-            logger.info("Edge created between  \n Source : "+edge.getSourceNode().getName() +"\n target : "+edge.getTargetNode().getName());
+        WorkflowEdge savedEdge =
+                workflowEdgeRepository.save(edge);
 
-            return workflowEdgeRepository.save(edge);
-        }catch (Exception e){
-            logger.error("Error while creating Edge", e);
-            throw  new RuntimeException("Error while creating Edge : " + e);
-        }
+        workflowValidationService.validate(workflowId);
 
+        return savedEdge;
     }
 }

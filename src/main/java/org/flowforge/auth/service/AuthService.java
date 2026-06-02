@@ -2,6 +2,7 @@ package org.flowforge.auth.service;
 
 import org.flowforge.auth.config.SecurityConfig;
 import org.flowforge.auth.dto.LoginRequest;
+import org.flowforge.auth.dto.LoginResponse;
 import org.flowforge.auth.dto.RegisterRequest;
 import org.flowforge.auth.entity.User;
 import org.flowforge.auth.repository.UserRepository;
@@ -17,6 +18,9 @@ public class AuthService {
 
     @Autowired
     public PasswordEncoder passwordEncoder;
+
+    @Autowired
+    public JwtService jwtService;
 
     public User register(RegisterRequest request) {
 
@@ -37,7 +41,7 @@ public class AuthService {
         return userRepository.save(user);
     }
 
-    public String login(LoginRequest request) {
+    public LoginResponse login(LoginRequest request) {
 
         User user = (User) userRepository.findByEmail(request.getEmail())
                 .orElseThrow(() -> new RuntimeException("Invalid credentials"));
@@ -51,6 +55,12 @@ public class AuthService {
             throw new RuntimeException("Invalid credentials");
         }
 
-        return "LOGIN_SUCCESS";
+        LoginResponse response = new LoginResponse();
+        String token = jwtService.generateToken(user.getEmail());
+        response.setToken(token);
+        response.setEmail(user.getEmail());
+
+        return response;
+
     }
 }
