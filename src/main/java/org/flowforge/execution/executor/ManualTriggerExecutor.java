@@ -2,6 +2,8 @@ package org.flowforge.execution.executor;
 
 import lombok.extern.slf4j.Slf4j;
 
+import org.flowforge.execution.dto.ExecutionContext;
+import org.flowforge.execution.dto.ExecutionResult;
 import org.flowforge.workflow.entity.WorkflowNode;
 
 import org.springframework.stereotype.Component;
@@ -12,9 +14,21 @@ public class ManualTriggerExecutor
         implements NodeExecutor {
 
     @Override
-    public void execute(WorkflowNode node) {
+    public ExecutionResult execute(
+            ExecutionContext context
+    ) {
 
-        log.info("Manual trigger executed: {}",
-                node.getName());
+        WorkflowNode node =
+                context.workflowNode();
+
+        log.info(
+                "Executing Manual Trigger: {}",
+                node.getName()
+        );
+
+        return ExecutionResult.builder()
+                .success(true)
+                .output("Manual trigger executed")
+                .build();
     }
 }

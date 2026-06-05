@@ -1,44 +1,598 @@
-2026-06-05 00:31:27 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m32s97ms).
-2026-06-05 01:16:56 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m28s555ms).
-2026-06-05 02:24:39 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m42s677ms).
-2026-06-05 03:38:10 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m31s152ms).
-2026-06-05 04:39:17 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m6s749ms).
-2026-06-05 05:55:59 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m42s380ms).
-2026-06-05 07:14:47 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m48s40ms).
-2026-06-05 08:33:22 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m35s502ms).
-2026-06-05 09:29:59 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m37s5ms).
-2026-06-05 10:11:18 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m18s105ms).
-2026-06-05 11:02:11 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m53s460ms).
-2026-06-05 11:33:20 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m8s650ms).
-2026-06-05 11:40:15 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s571ms).
-2026-06-05 11:52:41 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s819ms).
-2026-06-05 12:10:35 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m53s851ms).
-2026-06-05 12:57:23 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m17s785ms).
-2026-06-05 13:52:47 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m24s906ms).
-2026-06-05 14:14:02 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m14s342ms).
-2026-06-05 14:32:20 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m14s655ms).
-2026-06-05 14:48:36 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m15s871ms).
-2026-06-05 14:55:48 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m11s791ms).
-2026-06-05 16:43:35 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m46s867ms).
-2026-06-05 17:34:31 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s503ms).
-2026-06-05 17:38:40 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m8s962ms).
-2026-06-05 17:43:49 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m8s506ms).
-2026-06-05 17:48:44 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m54s885ms).
-2026-06-05 17:50:59 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s985ms).
-2026-06-05 19:06:57 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s415ms).
-2026-06-05 19:08:32 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s86ms).
-2026-06-05 19:16:51 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m19s64ms).
-2026-06-05 19:49:19 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s323ms).
-2026-06-05 19:55:20 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m30s456ms).
-2026-06-05 20:21:06 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m7s888ms).
-2026-06-05 20:37:09 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m2s621ms).
-2026-06-05 21:21:18 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m8s984ms).
-2026-06-05 21:34:33 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m15s458ms).
-2026-06-05 21:49:20 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m17s293ms).
-2026-06-05 22:02:48 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m27s468ms).
-2026-06-05 22:33:42 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m54s269ms).
-2026-06-05 23:05:23 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2026-06-05 23:05:23 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
-2026-06-05 23:05:24 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-05 23:05:24 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2026-06-05 23:05:24 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 00:21:37 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 00:21:37 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 35159 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 00:21:37 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 00:21:38 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 00:21:38 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 7 JPA repository interfaces.
+2026-06-06 00:21:38 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 00:21:38 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 00:21:38 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 00:21:38 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 00:21:38 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1149 ms
+2026-06-06 00:21:39 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 00:21:39 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 00:21:39 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 00:21:39 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 00:21:39 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39f8adc0
+2026-06-06 00:21:39 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 00:21:39 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 00:21:40 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 00:21:40 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:21:40 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 00:21:40 [main] WARN  traceId= o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executionController' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/controller/ExecutionController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+2026-06-06 00:21:40 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:21:40 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 00:21:40 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 00:21:40 [main] INFO  traceId= i.o.sdk.logs.SdkLoggerProvider - Calling shutdown() multiple times.
+2026-06-06 00:21:40 [main] INFO  traceId= i.o.sdk.trace.SdkTracerProvider - Calling shutdown() multiple times.
+2026-06-06 00:21:40 [main] INFO  traceId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-06-06 00:21:40 [main] INFO  traceId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-06 00:21:40 [main] ERROR traceId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executionController' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/controller/ExecutionController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.flowforge.FlowForgeApplication.main(FlowForgeApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 35 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Cannot create query for method [NodeExecutionRepository.findAllByWorkflowId(java.util.UUID)]; No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:109)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:118)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:291)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:114)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:102)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:90)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:413)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$1(RepositoryFactoryBeanSupport.java:361)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:136)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:370)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted
+Caused by: org.springframework.data.core.PropertyReferenceException: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.data.core.SimplePropertyPath.<init>(SimplePropertyPath.java:93)
+	at org.springframework.data.core.SimplePropertyPath.create(SimplePropertyPath.java:360)
+	at org.springframework.data.core.SimplePropertyPath.create(SimplePropertyPath.java:335)
+	at org.springframework.data.core.SimplePropertyPath.lambda$from$0(SimplePropertyPath.java:288)
+	at org.springframework.util.ConcurrentReferenceHashMap$6.execute(ConcurrentReferenceHashMap.java:387)
+	at org.springframework.util.ConcurrentReferenceHashMap$Segment.doTask(ConcurrentReferenceHashMap.java:681)
+	at org.springframework.util.ConcurrentReferenceHashMap.doTask(ConcurrentReferenceHashMap.java:565)
+	at org.springframework.util.ConcurrentReferenceHashMap.computeIfAbsent(ConcurrentReferenceHashMap.java:381)
+	at org.springframework.data.core.SimplePropertyPath.from(SimplePropertyPath.java:270)
+	at org.springframework.data.core.PropertyPath.from(PropertyPath.java:210)
+	at org.springframework.data.core.PropertyPath.from(PropertyPath.java:193)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:260)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:261)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:390)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:391)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:104)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:108)
+	... 60 common frames omitted
+2026-06-06 00:22:23 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 00:22:23 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 35204 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 00:22:23 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 00:22:24 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 00:22:24 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 7 JPA repository interfaces.
+2026-06-06 00:22:24 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 00:22:24 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 00:22:24 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 00:22:24 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 00:22:24 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 878 ms
+2026-06-06 00:22:25 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 00:22:25 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 00:22:25 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 00:22:25 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 00:22:25 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0e5d5f
+2026-06-06 00:22:25 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 00:22:25 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 00:22:25 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 00:22:26 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:22:26 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 00:22:26 [main] WARN  traceId= o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executionController' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/controller/ExecutionController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+2026-06-06 00:22:26 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:22:26 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 00:22:26 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 00:22:26 [main] INFO  traceId= i.o.sdk.logs.SdkLoggerProvider - Calling shutdown() multiple times.
+2026-06-06 00:22:26 [main] INFO  traceId= i.o.sdk.trace.SdkTracerProvider - Calling shutdown() multiple times.
+2026-06-06 00:22:26 [main] INFO  traceId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-06-06 00:22:26 [main] INFO  traceId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-06 00:22:26 [main] ERROR traceId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executionController' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/controller/ExecutionController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.flowforge.FlowForgeApplication.main(FlowForgeApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 35 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Cannot create query for method [NodeExecutionRepository.findAllByWorkflowId(java.util.UUID)]; No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:109)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:118)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:291)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:114)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:102)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:90)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:413)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$1(RepositoryFactoryBeanSupport.java:361)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:136)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:370)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted
+Caused by: org.springframework.data.core.PropertyReferenceException: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.data.core.SimplePropertyPath.<init>(SimplePropertyPath.java:93)
+	at org.springframework.data.core.SimplePropertyPath.create(SimplePropertyPath.java:360)
+	at org.springframework.data.core.SimplePropertyPath.create(SimplePropertyPath.java:335)
+	at org.springframework.data.core.SimplePropertyPath.lambda$from$0(SimplePropertyPath.java:288)
+	at org.springframework.util.ConcurrentReferenceHashMap$6.execute(ConcurrentReferenceHashMap.java:387)
+	at org.springframework.util.ConcurrentReferenceHashMap$Segment.doTask(ConcurrentReferenceHashMap.java:681)
+	at org.springframework.util.ConcurrentReferenceHashMap.doTask(ConcurrentReferenceHashMap.java:565)
+	at org.springframework.util.ConcurrentReferenceHashMap.computeIfAbsent(ConcurrentReferenceHashMap.java:381)
+	at org.springframework.data.core.SimplePropertyPath.from(SimplePropertyPath.java:270)
+	at org.springframework.data.core.PropertyPath.from(PropertyPath.java:210)
+	at org.springframework.data.core.PropertyPath.from(PropertyPath.java:193)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:260)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:261)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:390)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:391)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:104)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:108)
+	... 60 common frames omitted
+2026-06-06 00:24:42 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 00:24:42 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 35338 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 00:24:42 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 00:24:43 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 00:24:43 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2026-06-06 00:24:43 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 00:24:43 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 00:24:43 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 00:24:43 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 00:24:43 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1000 ms
+2026-06-06 00:24:43 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 00:24:44 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 00:24:44 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 00:24:44 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 00:24:44 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f4029e9
+2026-06-06 00:24:44 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 00:24:44 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 00:24:45 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 00:24:45 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:24:45 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 00:24:45 [main] WARN  traceId= o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executionController' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/controller/ExecutionController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+2026-06-06 00:24:45 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:24:45 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 00:24:45 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 00:24:45 [main] INFO  traceId= i.o.sdk.logs.SdkLoggerProvider - Calling shutdown() multiple times.
+2026-06-06 00:24:45 [main] INFO  traceId= i.o.sdk.trace.SdkTracerProvider - Calling shutdown() multiple times.
+2026-06-06 00:24:45 [main] INFO  traceId= o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-06-06 00:24:45 [main] INFO  traceId= o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-06 00:24:45 [main] ERROR traceId= o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executionController' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/controller/ExecutionController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.flowforge.FlowForgeApplication.main(FlowForgeApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'workflowExecutionService' defined in file [/Users/kedarchinna/Development/spring/flow_froge/target/classes/org/flowforge/execution/service/WorkflowExecutionService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nodeExecutionRepository' defined in org.flowforge.execution.repository.NodeExecutionRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 35 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Cannot create query for method [NodeExecutionRepository.findAllByWorkflowId(java.util.UUID)]; No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:109)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:118)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:291)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:114)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:102)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:90)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:413)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$1(RepositoryFactoryBeanSupport.java:361)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:136)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:370)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	... 46 common frames omitted
+Caused by: org.springframework.data.core.PropertyReferenceException: No property 'workflowId' found for type 'NodeExecution'
+	at org.springframework.data.core.SimplePropertyPath.<init>(SimplePropertyPath.java:93)
+	at org.springframework.data.core.SimplePropertyPath.create(SimplePropertyPath.java:360)
+	at org.springframework.data.core.SimplePropertyPath.create(SimplePropertyPath.java:335)
+	at org.springframework.data.core.SimplePropertyPath.lambda$from$0(SimplePropertyPath.java:288)
+	at org.springframework.util.ConcurrentReferenceHashMap$6.execute(ConcurrentReferenceHashMap.java:387)
+	at org.springframework.util.ConcurrentReferenceHashMap$Segment.doTask(ConcurrentReferenceHashMap.java:681)
+	at org.springframework.util.ConcurrentReferenceHashMap.doTask(ConcurrentReferenceHashMap.java:565)
+	at org.springframework.util.ConcurrentReferenceHashMap.computeIfAbsent(ConcurrentReferenceHashMap.java:381)
+	at org.springframework.data.core.SimplePropertyPath.from(SimplePropertyPath.java:270)
+	at org.springframework.data.core.PropertyPath.from(PropertyPath.java:210)
+	at org.springframework.data.core.PropertyPath.from(PropertyPath.java:193)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:260)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:261)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:390)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:391)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:104)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:108)
+	... 60 common frames omitted
+2026-06-06 00:28:00 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 00:28:00 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 35478 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 00:28:00 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 00:28:00 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 00:28:00 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 7 JPA repository interfaces.
+2026-06-06 00:28:01 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 00:28:01 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 00:28:01 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 00:28:01 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 00:28:01 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 840 ms
+2026-06-06 00:28:01 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 00:28:01 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 00:28:01 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 00:28:01 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 00:28:01 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40c6d1ef
+2026-06-06 00:28:01 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 00:28:01 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 00:28:02 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 00:28:02 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 00:28:02 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 00:28:03 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 00:28:03 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 00:28:03 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 00:28:03 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 00:28:03 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 00:28:03 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.41 seconds (process running for 3.697)
+2026-06-06 00:28:03 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 00:28:03 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 00:28:03 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 00:28:20 [http-nio-8080-exec-1] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 00:28:20 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 00:28:20 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-06-06 00:30:30 [http-nio-8080-exec-4] INFO  traceId=a33119930c807cb918054e707360282d o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:30:56 [http-nio-8080-exec-7] INFO  traceId=de78f2c52f9f9b65cf9cd13985b055ca o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=c864b301bc2d90982266c3df4e396778 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Email Trigger → Manual Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Email Trigger → Manual Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Email Trigger → Manual Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Email Trigger → Manual Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Email Trigger → Notion Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Email Trigger → Notion Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - Notion Trigger → Slack Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.s.WorkflowExecutionService - Execution plan generated: [8ab8b9c3-ba06-4c4f-ad73-e92ead0036cf, 48df1ff9-d9a7-47b4-87d3-7f15aecce122, abec35b5-698b-401b-8530-a1059ede7259, 60923baf-b685-444f-9c8b-e5eeedae2762]
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: Email Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: Manual Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: Notion Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: Slack Trigger
+2026-06-06 00:31:12 [http-nio-8080-exec-9] INFO  traceId=5f6ae076-e5ad-47c5-8492-dc48e0d86745 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:36:09 [http-nio-8080-exec-2] INFO  traceId=95eebf9f7b7ebec3f1ae8b3e343e9e91 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:36:09 [http-nio-8080-exec-2] INFO  traceId=3044357b-4206-4114-9b87-89d920701f14 o.f.workflow.service.WorkflowService - Creating workflow
+2026-06-06 00:36:09 [http-nio-8080-exec-2] INFO  traceId=3044357b-4206-4114-9b87-89d920701f14 o.f.workflow.service.WorkflowService - Extracting email from security context holder : UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=test2@email.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2026-06-06 00:36:09 [http-nio-8080-exec-2] INFO  traceId=3044357b-4206-4114-9b87-89d920701f14 o.f.workflow.service.WorkflowService - Workflow created
+2026-06-06 00:36:55 [http-nio-8080-exec-3] INFO  traceId=352d167f413c3a2365547a18e2100242 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:36:55 [http-nio-8080-exec-3] INFO  traceId=e5b1df77-d66b-4a28-9376-2c7c9f622df2 o.f.workflow.service.WorkflowService - Adding node to workflow e045d3ce-642a-466b-b0dc-d8582eaf9538
+2026-06-06 00:36:55 [http-nio-8080-exec-3] INFO  traceId=e5b1df77-d66b-4a28-9376-2c7c9f622df2 o.f.workflow.service.WorkflowService - Node First Trigger added to workflowtesting execution Workflow
+2026-06-06 00:37:40 [http-nio-8080-exec-5] INFO  traceId=a5706a49d027b204a66b002af9373270 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:37:40 [http-nio-8080-exec-5] INFO  traceId=489c6bb8-2d63-41d6-8bd9-7e079f173ba4 o.f.workflow.service.WorkflowService - Adding node to workflow e045d3ce-642a-466b-b0dc-d8582eaf9538
+2026-06-06 00:37:40 [http-nio-8080-exec-5] INFO  traceId=489c6bb8-2d63-41d6-8bd9-7e079f173ba4 o.f.workflow.service.WorkflowService - Node 1st child of first Trigger added to workflowtesting execution Workflow
+2026-06-06 00:37:56 [http-nio-8080-exec-4] INFO  traceId=6e151e7db89c74d9f32e53e08be76246 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:37:56 [http-nio-8080-exec-4] INFO  traceId=d4172314-6726-41de-b057-500b6df113b8 o.f.workflow.service.WorkflowService - Adding node to workflow e045d3ce-642a-466b-b0dc-d8582eaf9538
+2026-06-06 00:37:56 [http-nio-8080-exec-4] INFO  traceId=d4172314-6726-41de-b057-500b6df113b8 o.f.workflow.service.WorkflowService - Node 2st child of first Trigger added to workflowtesting execution Workflow
+2026-06-06 00:41:18 [http-nio-8080-exec-8] INFO  traceId=338fa347221af95cb354f291b16d7f04 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:41:18 [http-nio-8080-exec-8] INFO  traceId=eaad398c-f078-48bc-a7aa-dd623fb281f8 o.f.workflow.service.WorkflowService - Adding node to workflow e045d3ce-642a-466b-b0dc-d8582eaf9538
+2026-06-06 00:41:18 [http-nio-8080-exec-8] INFO  traceId=eaad398c-f078-48bc-a7aa-dd623fb281f8 o.f.workflow.service.WorkflowService - Node 2nd level node connect to 1st node  added to workflowtesting execution Workflow
+2026-06-06 00:41:38 [http-nio-8080-exec-9] INFO  traceId=16303e22eb69fbc3581578bd6f37d57e o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:41:39 [http-nio-8080-exec-9] INFO  traceId=bc99b809-9cab-40a5-9c43-d6ca1a307234 o.f.workflow.service.WorkflowService - Adding node to workflow e045d3ce-642a-466b-b0dc-d8582eaf9538
+2026-06-06 00:41:39 [http-nio-8080-exec-9] INFO  traceId=bc99b809-9cab-40a5-9c43-d6ca1a307234 o.f.workflow.service.WorkflowService - Node 2nd level node connect to 2st node  added to workflowtesting execution Workflow
+2026-06-06 00:42:04 [http-nio-8080-exec-10] INFO  traceId=aa9b2e81521aa4425abd710a2debbfaf o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:42:04 [http-nio-8080-exec-10] INFO  traceId=377853a7-e3b2-4a1e-92c1-ca621d26da61 o.f.workflow.service.WorkflowService - Adding node to workflow e045d3ce-642a-466b-b0dc-d8582eaf9538
+2026-06-06 00:42:04 [http-nio-8080-exec-10] INFO  traceId=377853a7-e3b2-4a1e-92c1-ca621d26da61 o.f.workflow.service.WorkflowService - Node last node in common  added to workflowtesting execution Workflow
+2026-06-06 00:44:33 [http-nio-8080-exec-2] INFO  traceId=b9c34d07ed52fb2f4d7a9652edda973a o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:45:48 [http-nio-8080-exec-4] INFO  traceId=bd33c40d6971adf4be6f35a3a3e16db2 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:45:48 [http-nio-8080-exec-4] INFO  traceId=a65dad5a-aadf-49e3-ac4b-639d7b8d1dcd o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:45:48 [http-nio-8080-exec-4] INFO  traceId=a65dad5a-aadf-49e3-ac4b-639d7b8d1dcd o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:45:48 [http-nio-8080-exec-4] INFO  traceId=a65dad5a-aadf-49e3-ac4b-639d7b8d1dcd o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:46:04 [http-nio-8080-exec-6] INFO  traceId=38c563c22e2bd960a9fe8a1baaeb9449 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:46:04 [http-nio-8080-exec-6] INFO  traceId=3813db4f-01df-49d2-bd1b-bb200db61123 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:46:04 [http-nio-8080-exec-6] INFO  traceId=3813db4f-01df-49d2-bd1b-bb200db61123 o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:46:04 [http-nio-8080-exec-6] INFO  traceId=3813db4f-01df-49d2-bd1b-bb200db61123 o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 00:46:04 [http-nio-8080-exec-6] INFO  traceId=3813db4f-01df-49d2-bd1b-bb200db61123 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:46:45 [http-nio-8080-exec-7] INFO  traceId=fab420d2ec5e31f02b0757333e0b0ac2 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:46:45 [http-nio-8080-exec-7] INFO  traceId=011c3888-7daf-474e-92b2-b6540357aaee o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:46:45 [http-nio-8080-exec-7] INFO  traceId=011c3888-7daf-474e-92b2-b6540357aaee o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:46:45 [http-nio-8080-exec-7] INFO  traceId=011c3888-7daf-474e-92b2-b6540357aaee o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 00:46:45 [http-nio-8080-exec-7] INFO  traceId=011c3888-7daf-474e-92b2-b6540357aaee o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 00:46:45 [http-nio-8080-exec-7] INFO  traceId=011c3888-7daf-474e-92b2-b6540357aaee o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=3e384c11c1d6d4fceb6fc3c5d5aa4ccc o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=a8944257-9d5c-455c-bdb6-a16727acca78 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=a8944257-9d5c-455c-bdb6-a16727acca78 o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=a8944257-9d5c-455c-bdb6-a16727acca78 o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=a8944257-9d5c-455c-bdb6-a16727acca78 o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=a8944257-9d5c-455c-bdb6-a16727acca78 o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 00:47:30 [http-nio-8080-exec-8] INFO  traceId=a8944257-9d5c-455c-bdb6-a16727acca78 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=5d6f45099bdd59ed59d022068ce23ae7 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common 
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 00:47:57 [http-nio-8080-exec-9] INFO  traceId=928737fc-ddcf-4e76-b775-34a3423b7985 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=f3a36be9ece9c7335f27d0e5eac1b669 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common 
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - 2nd level node connect to 2st node  → last node in common 
+2026-06-06 00:48:09 [http-nio-8080-exec-10] INFO  traceId=fe415863-1804-451f-a05b-96efe221687b o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=1605012fbe955f04c396a11a85724b35 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - 2nd level node connect to 2st node  → last node in common 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Execution plan generated: [15dcc46c-c54f-49b5-9806-089a2cc464c1, ccfa27fb-f56e-42dc-90c1-3249c62222fc, 97d067bb-0a3c-473b-bf91-63fa83665650, 0d78e0c4-2ab7-4f53-b793-8e4d94f39cd4, c8efd5bb-6a0a-487c-8aff-5ca5eb3840ab, efd3bee9-17f3-49d3-aec9-4abb838a1197]
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: First Trigger
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 1st child of first Trigger
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2st child of first Trigger
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 1st node 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 2st node 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: last node in common 
+2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully

@@ -2,6 +2,8 @@ package org.flowforge.execution.executor;
 
 import lombok.extern.slf4j.Slf4j;
 
+import org.flowforge.execution.dto.ExecutionContext;
+import org.flowforge.execution.dto.ExecutionResult;
 import org.flowforge.workflow.entity.WorkflowNode;
 
 import org.springframework.stereotype.Component;
@@ -12,12 +14,26 @@ public class LogExecutor
         implements NodeExecutor {
 
     @Override
-    public void execute(WorkflowNode node) {
+    public ExecutionResult execute(
+            ExecutionContext context
+    ) {
 
-        log.info("Executing LOG node: {}",
-                node.getName());
+        WorkflowNode node =
+                context.workflowNode();
 
-        log.info("Node config: {}",
-                node.getConfig());
+        log.info(
+                "Executing Log Node: {}",
+                node.getName()
+        );
+
+        log.info(
+                "Config: {}",
+                node.getConfig()
+        );
+
+        return ExecutionResult.builder()
+                .success(true)
+                .output("Log executed")
+                .build();
     }
 }
