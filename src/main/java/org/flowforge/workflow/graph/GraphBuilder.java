@@ -21,8 +21,8 @@ public class GraphBuilder {
         List<WorkflowEdge> edges =
                 workflowEdgeRepository.findByWorkflowId(workflowId);
 
-        Map<UUID, List<UUID>> adjacencyList = new HashMap<>();
-        Map<UUID, String> nodeNames = new HashMap<>();
+        Map<UUID, List<UUID>> adjacencyList = new LinkedHashMap<>();
+        Map<UUID, String> nodeNames = new LinkedHashMap<>();
 
 
         for (WorkflowEdge edge : edges) {

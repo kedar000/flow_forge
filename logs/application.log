@@ -596,3 +596,326 @@ Caused by: org.springframework.data.core.PropertyReferenceException: No property
 2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
 2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: last node in common 
 2026-06-06 00:49:22 [http-nio-8080-exec-2] INFO  traceId=adfe2c25-9dfb-450d-8060-87e0b13cc3be o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:08:43 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m41s548ms).
+2026-06-06 01:48:51 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m7s648ms).
+2026-06-06 01:51:44 [http-nio-8080-exec-6] INFO  traceId=8fa4f5ff2b91b7cb0c63ed6e366b794c o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - 2nd level node connect to 2st node  → last node in common
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Execution plan generated: [15dcc46c-c54f-49b5-9806-089a2cc464c1, ccfa27fb-f56e-42dc-90c1-3249c62222fc, 97d067bb-0a3c-473b-bf91-63fa83665650, 0d78e0c4-2ab7-4f53-b793-8e4d94f39cd4, c8efd5bb-6a0a-487c-8aff-5ca5eb3840ab, efd3bee9-17f3-49d3-aec9-4abb838a1197]
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: First Trigger
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 1st child of first Trigger
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2st child of first Trigger
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 1st node
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 2st node
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: last node in common
+2026-06-06 01:51:45 [http-nio-8080-exec-6] INFO  traceId=5621cfee-543c-45ff-a215-08e09be14ebb o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 01:59:39 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 01:59:39 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 01:59:39 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 01:59:39 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 01:59:39 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 01:59:42 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 01:59:42 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 37650 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 01:59:42 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 01:59:43 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 01:59:43 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 7 JPA repository interfaces.
+2026-06-06 01:59:43 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 01:59:43 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 01:59:43 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 01:59:43 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 01:59:43 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1005 ms
+2026-06-06 01:59:43 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 01:59:43 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 01:59:44 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 01:59:44 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 01:59:44 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0e5d5f
+2026-06-06 01:59:44 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 01:59:44 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 01:59:44 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 01:59:44 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 01:59:44 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 01:59:45 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 01:59:45 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 01:59:45 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 01:59:45 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 01:59:45 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 01:59:45 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.588 seconds (process running for 3.887)
+2026-06-06 01:59:45 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 01:59:45 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 01:59:45 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=903c1f4696c510d7275a8127cffdb766 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - 2nd level node connect to 2st node  → last node in common 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.s.WorkflowExecutionService - Execution plan generated: [15dcc46c-c54f-49b5-9806-089a2cc464c1, ccfa27fb-f56e-42dc-90c1-3249c62222fc, 97d067bb-0a3c-473b-bf91-63fa83665650, 0d78e0c4-2ab7-4f53-b793-8e4d94f39cd4, c8efd5bb-6a0a-487c-8aff-5ca5eb3840ab, efd3bee9-17f3-49d3-aec9-4abb838a1197]
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: First Trigger
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 1st child of first Trigger
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2st child of first Trigger
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 1st node 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 2st node 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: last node in common 
+2026-06-06 01:59:53 [http-nio-8080-exec-2] INFO  traceId=1e009419-4986-417c-8c69-f55310b7d18e o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=f3ca50628ce8dcf6313b83efd0497775 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - 2nd level node connect to 2st node  → last node in common 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.s.WorkflowExecutionService - Execution plan generated: [15dcc46c-c54f-49b5-9806-089a2cc464c1, ccfa27fb-f56e-42dc-90c1-3249c62222fc, 97d067bb-0a3c-473b-bf91-63fa83665650, 0d78e0c4-2ab7-4f53-b793-8e4d94f39cd4, c8efd5bb-6a0a-487c-8aff-5ca5eb3840ab, efd3bee9-17f3-49d3-aec9-4abb838a1197]
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: First Trigger
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 1st child of first Trigger
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2st child of first Trigger
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 1st node 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 2st node 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: last node in common 
+2026-06-06 02:11:06 [http-nio-8080-exec-5] INFO  traceId=eb948583-ad71-4aab-b13b-7cd95d253df1 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=e89cb9e410fd5cb59b262e979a5a4784 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - 2nd level node connect to 1st node  → last node in common 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - 2st child of first Trigger → 2nd level node connect to 2st node 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - First Trigger → 1st child of first Trigger
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - First Trigger → 2st child of first Trigger
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - 1st child of first Trigger → 2nd level node connect to 1st node 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - 2nd level node connect to 2st node  → last node in common 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.s.WorkflowExecutionService - Execution plan generated: [15dcc46c-c54f-49b5-9806-089a2cc464c1, ccfa27fb-f56e-42dc-90c1-3249c62222fc, 97d067bb-0a3c-473b-bf91-63fa83665650, 0d78e0c4-2ab7-4f53-b793-8e4d94f39cd4, c8efd5bb-6a0a-487c-8aff-5ca5eb3840ab, efd3bee9-17f3-49d3-aec9-4abb838a1197]
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: First Trigger
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 1st child of first Trigger
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2st child of first Trigger
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 1st node 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: 2nd level node connect to 2st node 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: last node in common 
+2026-06-06 02:11:17 [http-nio-8080-exec-6] INFO  traceId=238dbdaf-5935-4477-b908-b8acef13fb8c o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 02:11:44 [http-nio-8080-exec-7] INFO  traceId=9a22175ecb67b13785544584de859138 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:11:44 [http-nio-8080-exec-7] INFO  traceId=be652554-0b77-4ab3-b030-661beb33bd2b o.f.workflow.service.WorkflowService - Creating workflow
+2026-06-06 02:11:44 [http-nio-8080-exec-7] INFO  traceId=be652554-0b77-4ab3-b030-661beb33bd2b o.f.workflow.service.WorkflowService - Extracting email from security context holder : UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=test2@email.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[USER]]
+2026-06-06 02:11:44 [http-nio-8080-exec-7] INFO  traceId=be652554-0b77-4ab3-b030-661beb33bd2b o.f.workflow.service.WorkflowService - Workflow created
+2026-06-06 02:12:29 [http-nio-8080-exec-8] INFO  traceId=1b8a8f060f0ef797a032c96445f1d1dc o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:12:29 [http-nio-8080-exec-8] INFO  traceId=7de7a115-9e92-4b00-951c-1f047022d97a o.f.workflow.service.WorkflowService - Adding node to workflow 67e3f4e2-0072-4c1a-bf39-89966db12634
+2026-06-06 02:12:29 [http-nio-8080-exec-8] INFO  traceId=7de7a115-9e92-4b00-951c-1f047022d97a o.f.workflow.service.WorkflowService - Node start added to workflowtesting execution Workflow
+2026-06-06 02:13:12 [http-nio-8080-exec-9] INFO  traceId=bfd85260ff18040f4f5fac3811d5310b o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:13:12 [http-nio-8080-exec-9] INFO  traceId=11dc432a-fb03-4096-89d1-4d48a2228324 o.f.workflow.service.WorkflowService - Adding node to workflow 67e3f4e2-0072-4c1a-bf39-89966db12634
+2026-06-06 02:13:12 [http-nio-8080-exec-9] INFO  traceId=11dc432a-fb03-4096-89d1-4d48a2228324 o.f.workflow.service.WorkflowService - Node Log added to workflowtesting execution Workflow
+2026-06-06 02:14:23 [http-nio-8080-exec-1] INFO  traceId=fe2751efc1e62e17226e7797776590aa o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:14:23 [http-nio-8080-exec-1] INFO  traceId=2d570b87-210a-454a-ad35-e4aac4e9b71c o.f.workflow.service.WorkflowService - Adding node to workflow 67e3f4e2-0072-4c1a-bf39-89966db12634
+2026-06-06 02:14:23 [http-nio-8080-exec-1] INFO  traceId=2d570b87-210a-454a-ad35-e4aac4e9b71c o.f.workflow.service.WorkflowService - Node wait for 5 min added to workflowtesting execution Workflow
+2026-06-06 02:15:02 [http-nio-8080-exec-3] INFO  traceId=b126c7cffdbd6ae67b9ef800b4fc0d81 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:15:02 [http-nio-8080-exec-3] INFO  traceId=098ab920-a8bc-48b3-8956-508db3eeb11b o.f.workflow.service.WorkflowService - Adding node to workflow 67e3f4e2-0072-4c1a-bf39-89966db12634
+2026-06-06 02:15:02 [http-nio-8080-exec-3] INFO  traceId=098ab920-a8bc-48b3-8956-508db3eeb11b o.f.workflow.service.WorkflowService - Node call HTTP added to workflowtesting execution Workflow
+2026-06-06 02:15:43 [http-nio-8080-exec-4] INFO  traceId=3638b5b53024ecc48f77c21460e08fb9 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:15:43 [http-nio-8080-exec-4] INFO  traceId=b0ab550d-0662-462f-a22c-e854b3e9391c o.f.workflow.service.WorkflowService - Adding node to workflow 67e3f4e2-0072-4c1a-bf39-89966db12634
+2026-06-06 02:15:44 [http-nio-8080-exec-4] INFO  traceId=b0ab550d-0662-462f-a22c-e854b3e9391c o.f.workflow.service.WorkflowService - Node WORKFLOW COMPLETED added to workflowtesting execution Workflow
+2026-06-06 02:16:38 [http-nio-8080-exec-5] INFO  traceId=203c96b364bad04112f0392ae9a96611 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:16:59 [http-nio-8080-exec-6] INFO  traceId=9a297911d9655b8a143c6c5f9e7dfa1c o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:16:59 [http-nio-8080-exec-6] INFO  traceId=aa9ae209-2e5a-4428-8fd5-1d3f34dc733c o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:16:59 [http-nio-8080-exec-6] INFO  traceId=aa9ae209-2e5a-4428-8fd5-1d3f34dc733c o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 02:16:59 [http-nio-8080-exec-6] INFO  traceId=aa9ae209-2e5a-4428-8fd5-1d3f34dc733c o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:17:27 [http-nio-8080-exec-8] INFO  traceId=c97d71a5da3a1c90713474eed5305ddb o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:17:27 [http-nio-8080-exec-8] INFO  traceId=6126972f-d2a8-44aa-a2fd-e92f878d0b21 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:17:27 [http-nio-8080-exec-8] INFO  traceId=6126972f-d2a8-44aa-a2fd-e92f878d0b21 o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 02:17:27 [http-nio-8080-exec-8] INFO  traceId=6126972f-d2a8-44aa-a2fd-e92f878d0b21 o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 02:17:27 [http-nio-8080-exec-8] INFO  traceId=6126972f-d2a8-44aa-a2fd-e92f878d0b21 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:18:20 [http-nio-8080-exec-9] INFO  traceId=33360be28217f8306742d57365f071a7 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:18:25 [http-nio-8080-exec-10] INFO  traceId=6a902706431f7e52122f518a25473089 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:18:45 [http-nio-8080-exec-1] INFO  traceId=da6004f1d9c7cfa5004603b44ace5f4d o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:18:45 [http-nio-8080-exec-1] INFO  traceId=15693e93-a001-445c-9b68-ba398a67ae5d o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:18:45 [http-nio-8080-exec-1] INFO  traceId=15693e93-a001-445c-9b68-ba398a67ae5d o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 02:18:45 [http-nio-8080-exec-1] INFO  traceId=15693e93-a001-445c-9b68-ba398a67ae5d o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 02:18:45 [http-nio-8080-exec-1] INFO  traceId=15693e93-a001-445c-9b68-ba398a67ae5d o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 02:18:45 [http-nio-8080-exec-1] INFO  traceId=15693e93-a001-445c-9b68-ba398a67ae5d o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=98569545507e7e6146ffde41191b066b o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=7bc16bf0-59ac-49d0-aafe-2949de172d65 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=7bc16bf0-59ac-49d0-aafe-2949de172d65 o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=7bc16bf0-59ac-49d0-aafe-2949de172d65 o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=7bc16bf0-59ac-49d0-aafe-2949de172d65 o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=7bc16bf0-59ac-49d0-aafe-2949de172d65 o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 02:19:21 [http-nio-8080-exec-4] INFO  traceId=7bc16bf0-59ac-49d0-aafe-2949de172d65 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=c79eb6c7a37b84612af3560912d6a75d o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 02:19:35 [http-nio-8080-exec-5] INFO  traceId=4c6da57d-dc92-4de4-91d9-3cd3d287bef0 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=847504b3cd108e31d2d85dd048e64696 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.execution.executor.LogExecutor - Executing Log Node: Log
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.execution.executor.LogExecutor - Config: {}
+2026-06-06 02:19:43 [http-nio-8080-exec-7] INFO  traceId=906c1e9d-a279-4790-85ec-15ceda61b1ef o.f.e.s.WorkflowExecutionService - Error Executing workflow execution: No executor found for: DELAY
+2026-06-06 03:04:49 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s399ms).
+2026-06-06 03:37:33 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 03:37:33 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 03:37:33 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 03:37:33 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 03:37:33 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 03:37:36 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 03:37:36 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 41337 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 03:37:36 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 03:37:37 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 03:37:37 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 7 JPA repository interfaces.
+2026-06-06 03:37:37 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 03:37:37 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 03:37:37 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 03:37:37 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 03:37:37 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 890 ms
+2026-06-06 03:37:38 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 03:37:38 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 03:37:38 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 03:37:38 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 03:37:38 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40c6d1ef
+2026-06-06 03:37:38 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 03:37:38 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 03:37:39 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 03:37:39 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 03:37:39 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 03:37:39 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 03:37:39 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 03:37:40 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 03:37:40 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 03:37:40 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 03:37:40 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.599 seconds (process running for 3.986)
+2026-06-06 03:37:40 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 03:37:40 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 03:37:40 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=185f725d69df30f526c993b7928e968f o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.LogExecutor - Executing Log Node: Log
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.LogExecutor - Config: {}
+2026-06-06 03:37:45 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 03:37:50 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 03:37:50 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.HttpExecutor - Executing HTTP Node: call HTTP
+2026-06-06 03:37:50 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.HttpExecutor - Config: {}
+2026-06-06 03:37:50 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.LogExecutor - Executing Log Node: WORKFLOW COMPLETED
+2026-06-06 03:37:50 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.execution.executor.LogExecutor - Config: {}
+2026-06-06 03:37:50 [http-nio-8080-exec-2] INFO  traceId=ec6ecc83-84f9-4d65-a97d-3dcb2fb3954e o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 03:40:51 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 03:40:51 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 03:40:51 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 03:40:51 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 03:40:51 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 03:40:53 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 03:40:53 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 41500 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 03:40:53 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 03:40:54 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 03:40:54 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 7 JPA repository interfaces.
+2026-06-06 03:40:54 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 03:40:54 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 03:40:54 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 03:40:54 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 03:40:54 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 958 ms
+2026-06-06 03:40:54 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 03:40:54 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 03:40:55 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 03:40:55 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 03:40:55 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40c6d1ef
+2026-06-06 03:40:55 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 03:40:55 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 03:40:56 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 03:40:56 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 03:40:56 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 03:40:56 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 03:40:56 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 03:40:57 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 03:40:57 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 03:40:57 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 03:40:57 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.639 seconds (process running for 3.937)
+2026-06-06 03:40:57 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 03:40:57 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 03:40:57 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=89eaa5eb1588edecb95bf3e17a760a85 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.LogExecutor - Executing Log Node: Log
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.LogExecutor - Config: {}
+2026-06-06 03:41:02 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.HttpExecutor - Executing HTTP Node: call HTTP
+2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.HttpExecutor - Config: {}
+2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.LogExecutor - Executing Log Node: WORKFLOW COMPLETED
+2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.LogExecutor - Config: {}
+2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully

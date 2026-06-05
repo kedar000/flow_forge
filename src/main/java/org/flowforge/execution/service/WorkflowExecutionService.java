@@ -90,6 +90,7 @@ public class WorkflowExecutionService {
             NodeExecution nodeExecution =
                     new NodeExecution();
 
+            // set state to running
             nodeExecution.setWorkflowExecution(
                     workflowExecution
             );
@@ -109,6 +110,7 @@ public class WorkflowExecutionService {
                             nodeExecution
                     );
 
+            //execute the node
             try {
                 NodeExecutor executor =
                         nodeExecutorFactory.getExecutor(
@@ -170,23 +172,25 @@ public class WorkflowExecutionService {
                 throw new RuntimeException("Error executing workflow execution", ex);
             }
 
-            workflowExecution.setStatus(
-                    ExecutionStatus.SUCCESS
-            );
 
-            workflowExecution.setCompletedAt(
-                    LocalDateTime.now()
-            );
-
-            workflowExecutionRepository.save(
-                    workflowExecution
-            );
-
-
-            log.info(
-                    "Workflow execution completed successfully"
-            );
         }
+
+        workflowExecution.setStatus(
+                ExecutionStatus.SUCCESS
+        );
+
+        workflowExecution.setCompletedAt(
+                LocalDateTime.now()
+        );
+
+        workflowExecutionRepository.save(
+                workflowExecution
+        );
+
+
+        log.info(
+                "Workflow execution completed successfully"
+        );
 
     }
 }
