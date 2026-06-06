@@ -18,22 +18,17 @@ public class LogExecutor
             ExecutionContext context
     ) {
 
-        WorkflowNode node =
-                context.workflowNode();
+        log.info("Executing Log Node: {}", context.getWorkflowNode().getName());
 
         log.info(
-                "Executing Log Node: {}",
-                node.getName()
-        );
-
-        log.info(
-                "Config: {}",
-                node.getConfig()
+                "Current Variables: {}",
+                context.getVariables()
+                        .getVariables()
         );
 
         return ExecutionResult.builder()
                 .success(true)
-                .output("Log executed")
+                .output("logged")
                 .build();
     }
 }

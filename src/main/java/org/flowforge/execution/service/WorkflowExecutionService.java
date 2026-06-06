@@ -6,6 +6,7 @@ import org.flowforge.common.enums.ExecutionStatus;
 import org.flowforge.execution.dto.ExecutionContext;
 import org.flowforge.execution.dto.ExecutionPlan;
 import org.flowforge.execution.dto.ExecutionResult;
+import org.flowforge.execution.dto.WorkflowVariables;
 import org.flowforge.execution.entity.NodeExecution;
 import org.flowforge.execution.entity.WorkflowExecution;
 import org.flowforge.execution.executor.NodeExecutor;
@@ -19,6 +20,7 @@ import org.flowforge.workflow.repository.WorkflowRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import tools.jackson.databind.ObjectMapper;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -43,6 +45,8 @@ public class WorkflowExecutionService {
 
     private final WorkflowRepository workflowRepository;
 
+    private final ObjectMapper objectMapper;
+
     @Transactional
 
     public void executeWorkflow(
@@ -50,6 +54,8 @@ public class WorkflowExecutionService {
             UUID workflowId
 
     ) {
+
+        // create WorkflowExecution and set state to RUNNING
         WorkflowExecution workflowExecution =
                 new WorkflowExecution();
 
@@ -66,12 +72,14 @@ public class WorkflowExecutionService {
                         workflowExecution
                 );
 
+        // Extract workflow
         Workflow workflow =
                 workflowRepository.findById(workflowId)
                         .orElseThrow();
 
         workflowExecution.setWorkflow(workflow);
 
+        // extract order of nodes execution in the current workflow
         ExecutionPlan plan =
                 executionPlannerService
                         .createPlan(workflowId);
@@ -79,6 +87,10 @@ public class WorkflowExecutionService {
                 "Execution plan generated: {}",
                 plan.getOrderedNodes()
         );
+
+        // global variables to store the output of each node in the current workflow
+        WorkflowVariables workflowVariables =
+                new WorkflowVariables();
 
         for (UUID nodeId : plan.getOrderedNodes()) {
 
@@ -90,7 +102,7 @@ public class WorkflowExecutionService {
             NodeExecution nodeExecution =
                     new NodeExecution();
 
-            // set state to running
+            // set current node to RUNNING state
             nodeExecution.setWorkflowExecution(
                     workflowExecution
             );
@@ -110,21 +122,36 @@ public class WorkflowExecutionService {
                             nodeExecution
                     );
 
-            //execute the node
+            // Execute the node
             try {
+
                 NodeExecutor executor =
                         nodeExecutorFactory.getExecutor(
                                 node.getType()
                         );
-                ExecutionContext context =
-                        new ExecutionContext(
-                                workflowExecution,
-                                node
-                        );
 
+
+                ExecutionContext context =
+                        ExecutionContext.builder()
+                                .workflowExecution(workflowExecution)
+                                .workflowNode(node)
+                                .variables(workflowVariables)
+                                .build();
+
+                // Result of the current node
                 ExecutionResult result =
                         executor.execute(context);
 
+
+                // Save the current node output variables to the global workflow variables
+                workflowVariables
+                        .getVariables()
+                        .put(
+                                node.getName(),
+                                result.getOutput()
+                        );
+
+                // Set node status to SUCCESS
                 nodeExecution.setStatus(
                         ExecutionStatus.SUCCESS
                 );
@@ -133,14 +160,24 @@ public class WorkflowExecutionService {
                         LocalDateTime.now()
                 );
 
+                // converting map to json string cause result.getoutput is map
+                // for now http response is Map and other executor output is string
                 nodeExecution.setOutput(
-                        result.getOutput()
+
+                        objectMapper.writeValueAsString(
+
+                                result.getOutput()
+
+                        )
+
                 );
 
                 nodeExecutionRepository.save(
                         nodeExecution
                 );
             }catch (Exception ex) {
+
+                // Set node status to failed
                 nodeExecution.setStatus(
                         ExecutionStatus.FAILED
                 );
@@ -175,6 +212,8 @@ public class WorkflowExecutionService {
 
         }
 
+
+        // After completing execution of nodes change status of workflow from RUNNING -> SUCCESS
         workflowExecution.setStatus(
                 ExecutionStatus.SUCCESS
         );

@@ -22,7 +22,7 @@ public class DelayExecutor implements NodeExecutor {
 //        WorkflowNode node =
 //                node1.workflowNode();
 
-        log.info("Executing Delay Node: {}", node.workflowNode().getName());
+        log.info("Executing Delay Node: {}", node.getWorkflowNode().getName());
 
         try {
             Thread.sleep(5000);
@@ -30,8 +30,14 @@ public class DelayExecutor implements NodeExecutor {
             Thread.currentThread().interrupt();
         }
         log.info(
+                "Current Variables: {}",
+                node.getVariables()
+                        .getVariables()
+        );
+
+        log.info(
                 "Config: {}",
-                node.workflowNode().getConfig()
+                node.getWorkflowNode().getConfig()
         );
 
         return ExecutionResult.builder()

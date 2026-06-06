@@ -919,3 +919,457 @@ Caused by: org.springframework.data.core.PropertyReferenceException: No property
 2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.LogExecutor - Executing Log Node: WORKFLOW COMPLETED
 2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.execution.executor.LogExecutor - Config: {}
 2026-06-06 03:41:07 [http-nio-8080-exec-1] INFO  traceId=e6409119-357d-4a66-8093-a7b1a7a1019c o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 03:56:26 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m729ms).
+2026-06-06 03:58:32 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s320ms).
+2026-06-06 04:02:05 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m2s855ms).
+2026-06-06 04:08:17 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m42s188ms).
+2026-06-06 04:12:40 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m22s721ms).
+2026-06-06 04:17:46 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s680ms).
+2026-06-06 04:26:34 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s944ms).
+2026-06-06 05:35:46 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m35s591ms).
+2026-06-06 05:37:11 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s843ms).
+2026-06-06 05:55:15 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m3s398ms).
+2026-06-06 06:11:42 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s950ms).
+2026-06-06 06:25:16 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m4s511ms).
+2026-06-06 06:42:05 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 06:42:05 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 06:42:05 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 06:42:05 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 06:42:05 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 06:43:58 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 06:43:58 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 44657 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 06:43:58 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 06:43:59 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 06:43:59 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 7 JPA repository interfaces.
+2026-06-06 06:43:59 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 06:43:59 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 06:43:59 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 06:43:59 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 06:43:59 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 784 ms
+2026-06-06 06:43:59 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 06:43:59 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 06:44:00 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 06:44:00 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 06:44:00 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0e5d5f
+2026-06-06 06:44:00 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 06:44:00 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 06:44:00 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 06:44:00 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 06:44:00 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 06:44:01 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 06:44:01 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 06:44:01 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 06:44:01 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 06:44:01 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 06:44:01 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.27 seconds (process running for 3.543)
+2026-06-06 06:44:01 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 06:44:01 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 06:44:01 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=294a9f56d9e70442b984212e49e9811e o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 06:44:05 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 06:44:10 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 06:44:10 [http-nio-8080-exec-2] INFO  traceId=300881fd-f6e5-400a-8a11-0e3d22b548b7 o.f.e.s.WorkflowExecutionService - Error Executing workflow execution: class java.util.HashMap cannot be cast to class java.lang.String (java.util.HashMap and java.lang.String are in module java.base of loader 'bootstrap')
+2026-06-06 06:46:32 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 06:46:32 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 06:46:32 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 06:46:32 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 06:46:32 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 06:46:35 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 06:46:35 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 44722 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 06:46:35 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 06:46:35 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 06:46:35 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 7 JPA repository interfaces.
+2026-06-06 06:46:36 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 06:46:36 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 06:46:36 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 06:46:36 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 06:46:36 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 818 ms
+2026-06-06 06:46:36 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 06:46:36 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 06:46:36 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 06:46:36 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 06:46:36 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0e5d5f
+2026-06-06 06:46:36 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 06:46:36 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 06:46:37 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 06:46:37 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 06:46:37 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 06:46:37 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 06:46:37 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 06:46:38 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 06:46:38 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 06:46:38 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 06:46:38 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.197 seconds (process running for 3.484)
+2026-06-06 06:46:38 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 06:46:38 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 06:46:38 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=e53003eda61a6530aa38b68fd6976088 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 06:46:42 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 06:46:47 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 06:46:48 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 06:46:48 [http-nio-8080-exec-1] INFO  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 06:46:48 [http-nio-8080-exec-1] WARN  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 07006
+2026-06-06 06:46:48 [http-nio-8080-exec-1] WARN  traceId=ac4226f8-5a05-4d1a-80be-b69f86215bca org.hibernate.orm.jdbc.error - Unsupported Types value: 2,000
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=d1ff6ee3c7785608106fa67e15c22de5 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 06:48:51 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 06:48:56 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 06:48:56 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 06:48:56 [http-nio-8080-exec-4] INFO  traceId=16220d7a-9c59-4611-b304-709691464f10 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 06:48:56 [http-nio-8080-exec-4] WARN  traceId=16220d7a-9c59-4611-b304-709691464f10 org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 07006
+2026-06-06 06:48:56 [http-nio-8080-exec-4] WARN  traceId=16220d7a-9c59-4611-b304-709691464f10 org.hibernate.orm.jdbc.error - Unsupported Types value: 2,000
+2026-06-06 06:52:28 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 06:52:28 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 06:52:28 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 06:52:28 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 06:52:28 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 06:52:31 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 06:52:31 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 44875 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 06:52:31 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 06:52:32 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 06:52:32 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 7 JPA repository interfaces.
+2026-06-06 06:52:32 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 06:52:32 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 06:52:32 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 06:52:32 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 06:52:32 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 835 ms
+2026-06-06 06:52:33 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 06:52:33 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 06:52:33 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 06:52:33 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 06:52:33 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3023f157
+2026-06-06 06:52:33 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 06:52:33 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 06:52:34 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 06:52:34 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 06:52:34 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 06:52:34 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 06:52:34 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 06:52:34 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 06:52:35 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 06:52:35 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 06:52:35 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.469 seconds (process running for 3.829)
+2026-06-06 06:52:35 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 06:52:35 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 06:52:35 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=db55c18186b2b72b2550ecdeb9dd27e8 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 06:52:38 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 06:52:43 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 06:52:43 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 06:52:43 [http-nio-8080-exec-2] INFO  traceId=534c342a-ba8f-4ff8-ab1e-a5342ce0950a o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 07:00:26 [HikariPool-1:housekeeper] WARN  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s361ms).
+2026-06-06 07:19:44 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 07:19:44 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 07:19:44 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 07:19:44 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 07:19:44 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 07:19:46 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 07:19:46 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 45327 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 07:19:46 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 07:19:47 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 07:19:47 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2026-06-06 07:19:47 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 07:19:47 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 07:19:47 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 07:19:47 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 07:19:47 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 841 ms
+2026-06-06 07:19:47 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 07:19:47 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 07:19:48 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 07:19:48 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 07:19:48 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73d7d676
+2026-06-06 07:19:48 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 07:19:48 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 07:19:48 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 07:19:48 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 07:19:48 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 07:19:49 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 07:19:49 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 07:19:49 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 07:19:49 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 07:19:49 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 07:19:49 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.274 seconds (process running for 3.601)
+2026-06-06 07:19:49 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 07:19:49 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 07:19:49 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 07:19:53 [http-nio-8080-exec-2] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 07:19:53 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 07:19:53 [http-nio-8080-exec-2] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=4ee9060c3d9f7c542a5370fefdadfb57 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 07:19:54 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 07:19:59 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 07:19:59 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:19:59 [http-nio-8080-exec-2] INFO  traceId=892ef795-f156-4ef3-a522-fead69bb4d1c o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 07:21:44 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 07:21:44 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 07:21:44 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 07:21:44 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 07:21:44 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 07:21:46 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 07:21:46 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 45411 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 07:21:46 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 07:21:46 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 07:21:46 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 7 JPA repository interfaces.
+2026-06-06 07:21:47 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 07:21:47 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 07:21:47 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 07:21:47 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 07:21:47 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 806 ms
+2026-06-06 07:21:47 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 07:21:47 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 07:21:47 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 07:21:47 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 07:21:48 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0e5d5f
+2026-06-06 07:21:48 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 07:21:48 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 07:21:49 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 07:21:49 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 07:21:49 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 07:21:49 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 07:21:49 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 07:21:49 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 07:21:49 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 07:21:49 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 07:21:50 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.877 seconds (process running for 4.156)
+2026-06-06 07:21:50 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 07:21:50 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 07:21:50 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 07:21:51 [http-nio-8080-exec-1] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 07:21:51 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 07:21:51 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=def4b4ab2a190e01b4eacf8000cef2b4 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf]
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.LogExecutor - Executing Log Node: Log
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 07:21:52 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 07:21:57 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 07:21:57 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.HttpExecutor - Executing HTTP Node: call HTTP
+2026-06-06 07:21:57 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.LogExecutor - Executing Log Node: WORKFLOW COMPLETED
+2026-06-06 07:21:57 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:21:57 [http-nio-8080-exec-1] INFO  traceId=3feb7ab6-4f8b-4d29-8f86-1519e9b7174b o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 07:22:42 [http-nio-8080-exec-4] INFO  traceId=613536ccc43e22e56ad2aaca2543044c o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 07:22:42 [http-nio-8080-exec-4] INFO  traceId=2d495257-f30d-4bef-84bf-f99fc100cd37 o.f.workflow.service.WorkflowService - Adding node to workflow 67e3f4e2-0072-4c1a-bf39-89966db12634
+2026-06-06 07:22:42 [http-nio-8080-exec-4] INFO  traceId=2d495257-f30d-4bef-84bf-f99fc100cd37 o.f.workflow.service.WorkflowService - Node final log Node added to workflowtesting execution Workflow
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=19f41b685a31ed2844a47499c83942a3 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - WORKFLOW COMPLETED → final log Node
+2026-06-06 07:23:15 [http-nio-8080-exec-3] INFO  traceId=907f904f-cffd-4ff1-824d-13c5a506c72d o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=2aebe64f977445d82e6364703a30131e o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - WORKFLOW COMPLETED → final log Node
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf, a62f855e-f85c-44b7-a1c6-9692743d628f]
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.LogExecutor - Executing Log Node: Log
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 07:23:32 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.HttpExecutor - Executing HTTP Node: call HTTP
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.LogExecutor - Executing Log Node: WORKFLOW COMPLETED
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.LogExecutor - Executing Log Node: final log Node
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, WORKFLOW COMPLETED=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:23:37 [http-nio-8080-exec-5] INFO  traceId=6941e9e5-c2bd-4823-a26b-a76ea080661b o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully
+2026-06-06 07:24:59 [SpringApplicationShutdownHook] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-06 07:24:59 [tomcat-shutdown] INFO  traceId= o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-06 07:24:59 [SpringApplicationShutdownHook] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 07:24:59 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-06 07:24:59 [SpringApplicationShutdownHook] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-06 07:25:01 [background-preinit] INFO  traceId= o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-06-06 07:25:01 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Starting FlowForgeApplication using Java 25.0.2 with PID 45505 (/Users/kedarchinna/Development/spring/flow_froge/target/classes started by kedarchinna in /Users/kedarchinna/Development/spring/flow_froge)
+2026-06-06 07:25:01 [main] INFO  traceId= org.flowforge.FlowForgeApplication - The following 1 profile is active: "dev"
+2026-06-06 07:25:02 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-06 07:25:02 [main] INFO  traceId= o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 7 JPA repository interfaces.
+2026-06-06 07:25:02 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-06 07:25:02 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-06 07:25:02 [main] INFO  traceId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-06 07:25:02 [main] INFO  traceId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-06 07:25:02 [main] INFO  traceId= o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1075 ms
+2026-06-06 07:25:02 [main] INFO  traceId= org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-06 07:25:02 [main] INFO  traceId= org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-06 07:25:02 [main] INFO  traceId= o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-06 07:25:02 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-06 07:25:03 [main] INFO  traceId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0e5d5f
+2026-06-06 07:25:03 [main] INFO  traceId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-06 07:25:03 [main] INFO  traceId= o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flowforge]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: flowforge/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-06 07:25:03 [main] INFO  traceId= org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-06 07:25:03 [main] INFO  traceId= o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-06 07:25:03 [main] INFO  traceId= o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-06 07:25:04 [main] INFO  traceId= o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-06 07:25:04 [main] WARN  traceId= o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-06 07:25:04 [main] INFO  traceId= o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-06 07:25:04 [main] INFO  traceId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-06 07:25:04 [main] INFO  traceId= o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-06 07:25:04 [main] INFO  traceId= org.flowforge.FlowForgeApplication - Started FlowForgeApplication in 3.479 seconds (process running for 3.821)
+2026-06-06 07:25:04 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 07:25:04 [main] INFO  traceId= o.f.config.logger.StartupLogger - FlowForge Backend Started
+2026-06-06 07:25:04 [main] INFO  traceId= o.f.config.logger.StartupLogger - =================================
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId= o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=e14892a044d0ca5e89bfc67be20e1fb9 o.f.a.filter.JwtAuthenticationFilter - Authentication Success and stored in security context holder 
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - ========== WORKFLOW GRAPH ==========
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - start → Log
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - Log → wait for 5 min
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - Log → call HTTP
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - call HTTP → WORKFLOW COMPLETED
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - wait for 5 min → WORKFLOW COMPLETED
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - WORKFLOW COMPLETED → final log Node
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.workflow.graph.GraphPrinter - ====================================
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.e.s.WorkflowExecutionService - Execution plan generated: [abda9291-020f-47f6-a5cb-f9f752010efc, a7e4cf3c-e7e7-4582-8cc5-0d179b83ecde, 5b850cbf-a697-4dd2-9463-0af156f4f1f8, f6b24f64-ae30-4953-b57d-cb1ac6993caf, f27aeecb-190b-434f-869b-c2f0919c5adf, a62f855e-f85c-44b7-a1c6-9692743d628f]
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.e.executor.ManualTriggerExecutor - Executing Manual Trigger: start
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.e.executor.ManualTriggerExecutor - Current Variables: {}
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.LogExecutor - Executing Log Node: Log
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.LogExecutor - Current Variables: {start=Manual trigger executed}
+2026-06-06 07:25:06 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.DelayExecutor - Executing Delay Node: wait for 5 min
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.DelayExecutor - Current Variables: {Log=logged, start=Manual trigger executed}
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.DelayExecutor - Config: {}
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.HttpExecutor - Executing HTTP Node: call HTTP
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.HttpExecutor - Current Variables: {Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.LogExecutor - Executing Log Node: WORKFLOW COMPLETED
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.LogExecutor - Executing Log Node: final log Node
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.execution.executor.LogExecutor - Current Variables: {call HTTP={name=Kedar, email=test@test.com}, Log=logged, WORKFLOW COMPLETED=logged, start=Manual trigger executed, wait for 5 min=Delay Execution Completed}
+2026-06-06 07:25:11 [http-nio-8080-exec-1] INFO  traceId=3f0a4de2-f143-403e-ac56-5ad2d6619f54 o.f.e.s.WorkflowExecutionService - Workflow execution completed successfully

@@ -5,26 +5,33 @@ import org.flowforge.execution.dto.ExecutionContext;
 import org.flowforge.execution.dto.ExecutionResult;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Slf4j
 @Component("HTTP")
 public class HttpExecutor implements NodeExecutor {
     @Override
-    public ExecutionResult execute(ExecutionContext node) {
+    public ExecutionResult execute(
+            ExecutionContext context
+    ) {
 
-//        WorkflowNode node =
-//                node1.workflowNode();
+        log.info("Executing HTTP Node: {}", context.getWorkflowNode().getName());
+        Map<String,Object> response =
+                new HashMap<>();
 
-        log.info("Executing HTTP Node: {}", node.workflowNode().getName());
-
+        response.put("name", "Kedar");
+        response.put("email", "test@test.com");
 
         log.info(
-                "Config: {}",
-                node.workflowNode().getConfig()
+                "Current Variables: {}",
+                context.getVariables()
+                        .getVariables()
         );
 
         return ExecutionResult.builder()
                 .success(true)
-                .output("HTTP Execution Completed")
+                .output(response)
                 .build();
     }
 

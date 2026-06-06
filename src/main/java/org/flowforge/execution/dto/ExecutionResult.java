@@ -9,7 +9,7 @@ public class ExecutionResult {
 
     private boolean success;
 
-    private String output;
+    private Object output;
 
     private String error;
 }

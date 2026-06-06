@@ -19,11 +19,17 @@ public class ManualTriggerExecutor
     ) {
 
         WorkflowNode node =
-                context.workflowNode();
+                context.getWorkflowNode();
 
         log.info(
                 "Executing Manual Trigger: {}",
                 node.getName()
+        );
+
+        log.info(
+                "Current Variables: {}",
+                context.getVariables()
+                        .getVariables()
         );
 
         return ExecutionResult.builder()
